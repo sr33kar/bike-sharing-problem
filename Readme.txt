@@ -8,7 +8,7 @@ Fr question 1:(in folder name q1)
     Output: "output.txt"
           each line contains the prediction of each test case in input file.
     Implementation:
-        Implemented using RandomForestRegressor algorithm imported from sklearn. This provided an accuracy of 94.84369% with default n_estimators=100.
+        Implemented using RandomForestRegressor algorithm imported from sklearn. This provided an accuracy of 95.03564672% with default n_estimators=100.
 Input columns(x): season,yr,mnth,hr,holiday,weekday,workingday,weathersit,temp,atemp,hum,windspeed
 Output Column(y): cnt (count of estimated bikes shared in that hour)
 ####################################################################################################################################################
@@ -23,7 +23,7 @@ For question 2:(in folder name q2)
     Output: "output.txt"
           each line contains the prediction of each test case in input file.
     Implementation:
-        Implemented using RandomForestRegressor algorithm imported from sklearn. This provided an accuracy of 89.90883% with default n_estimators=100.
+        Implemented using RandomForestRegressor algorithm imported from sklearn. This provided an accuracy of 91.8339882% with default n_estimators=100.
 Input columns(x): season,yr,mnth,holiday,weekday,workingday,weathersit,temp,atemp,hum,windspeed
 Output Column(y): cnt (count of estimated bikes shared in that whole day)
 ####################################################################################################################################################
